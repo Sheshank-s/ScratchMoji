@@ -16,4 +16,4 @@ Changes the following text to emojis:
 - :P
 - :|
 
-All emojis are from https://getemoji.com/ 
+All emojis are from https://emojiisland.com/pages/free-download-emoji-icons-png
