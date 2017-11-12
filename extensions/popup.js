@@ -119,6 +119,16 @@ var emojisdash = {
    "fish": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/fish.png" alt="_fish_" title="_fish_" class="emoji">',
    "frog": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/frog.png" alt="_frog_" title="_frog_" class="emoji">',
    "gray-bird": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/cow.png" alt="_gray-bird_" title="_gray-bird_" class="emoji">',
+   "hatching-chick": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/hatching-chick.png" alt="_hatching-chick_" title="_hatching-chick_" class="emoji">',
+   "hear-no-evil": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/hear-no-evil.png" alt="_hear-no-evil_" title="_hear-no-evil_" class="emoji">',
+   "horse-running": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/horse-running.png" alt="_horse-running_" title="_horse-running_" class="emoji">',
+   "horse": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/horse.png" alt="_horse_" title="_horse_" class="emoji">',
+   "koala": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/koala.png" alt="_koala_" title="_koala_" class="emoji">',
+   "ladybug": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ladybug.png" alt="_ladybug_" title="_ladybug_" class="emoji">',
+   "monkey-face": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/monkey-face.png" alt="_monkey-face_" title="_monkey-face_" class="emoji">',
+   "monkey": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/monkey.png" alt="_monkey_" title="_monkey_" class="emoji">',
+   "mushroom": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/mushroom.png" alt="_mushroom_" title="_mushroom_" class="emoji">',
+   "octopus": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/octopus.png" alt="_octopus_" title="_octopus_" class="emoji">',
    "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">'
  };
 
