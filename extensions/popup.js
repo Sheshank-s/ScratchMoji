@@ -98,7 +98,37 @@ var emojisdash = {
  for (var i = 0; i < listOfValues.length; i++) {
    document.getElementById("container").innerHTML += listOfValues[i] + " ";
  }
+ //People
+ var peopleemojisdash = {
+   "Massage": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/Massage.png" alt="_Massage_" title="_Massage_" class="emoji">',
+   "angel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/angle.png" alt="_angel_" title="_angel_" class="emoji">',
+   "baby": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/baby.png" alt="_baby_" title="_baby_" class="emoji">',
+   "back-pointing-hand": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/back-pointing-hand.png" alt="_back-pointing-hand_" title="_back-pointing-hand_" class="emoji">',
+   "beating-heart": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/beating-heart.png" alt="_beating-heart_" title="_beating-heart_" class="emoji">',
+   "bride": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/bride.png" alt="_bride_" title="_bride_" class="emoji">',
+   "clapping": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/clapping.png" alt="_clapping_" title="_clapping_" class="emoji">',
+   "dancer": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/dancer.png" alt="_dancer_" title="_dancer_" class="emoji">',
+   "dancers": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/dancers.png" alt="_dancers_" title="_dancers_" class="emoji">',
+   "ear": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/ear.png" alt="_ear_" title="_ear_" class="emoji">',
+   "eyes": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/eyes.png" alt="_eyes_" title="_eyes_" class="emoji">',
+   "fist": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/fist.png" alt="_fist_" title="_fist_" class="emoji">',
+   "flexing": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/flexing.png" alt="_flexing_" title="_flexing_" class="emoji">',
+   "front-pointing-hand": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/front-pointing-hand.png" alt="_front-pointing-hand_" title="_front-pointing-hand_" class="emoji">',
+   "grandma": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/grandma.png" alt="_grandma_" title="_grandma_" class="emoji">',
+   "grandpa": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/grandpa.png" alt="_grandpa_" title="_grandpa_" class="emoji">',
+   "growing-heart": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/growing-heart.png" alt="_growing-heart_" title="_growing-heart_" class="emoji">',
+   "haircut": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/haircut.png" alt="_haircut_" title="_haircut_" class="emoji">',
+   "heart-with-arrow": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/heart-with-arrow.png" alt="_heart-with-arrow_" title="_heart-with-arrow_" class="emoji">',
+   "heart-with-ribbon": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/heart-with-ribbon.png" alt="_heart-with-ribbon_" title="_heart-with-ribbon_" class="emoji">',
+   "waving-hand": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/waving-hand.png" alt="_waving-hand_" title="_waving-hand_" class="emoji">'
+ };
+ document.getElementById("container").innerHTML += "<br> <b>People:</b> <br>"
 
+  var peoplelistOfValues = Object.values(peopleemojisdash);
+  console.log(peoplelistOfValues[1]);
+  for (var i = 0; i < peoplelistOfValues.length; i++) {
+    document.getElementById("container").innerHTML += peoplelistOfValues[i] + " ";
+  }
  //Animals
  var animalemojisdash = {
    "ant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ant.png" alt="_ant_" title="_ant_" class="emoji">',
