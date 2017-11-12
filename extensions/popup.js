@@ -113,6 +113,12 @@ var emojisdash = {
    "chicken": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/chicken.png" alt="_chicken_" title="_chicken_" class="emoji">',
    "cow": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/cow.png" alt="_cow_" title="_cow_" class="emoji">',
    "dog": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/dog.png" alt="_dog_" title="_dog_" class="emoji">',
+   "dog2": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/dog2.png" alt="_dog2_" title="_dog2_" class="emoji">',
+   "dolphin": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/dolphin.png" alt="_dolphin_" title="_dolphin_" class="emoji">',
+   "elephant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/elephant.png" alt="_elephant_" title="_elephant_" class="emoji">',
+   "fish": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/fish.png" alt="_fish_" title="_fish_" class="emoji">',
+   "frog": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/frog.png" alt="_frog_" title="_frog_" class="emoji">',
+   "gray-bird": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/cow.png" alt="_gray-bird_" title="_gray-bird_" class="emoji">',
    "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">'
  };
 
