@@ -202,7 +202,7 @@ var emojisdash = {
    "shell": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/shell.png" alt="_shell_" title="_shell_" class="emoji">',
    "snake": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/snake.png" alt="_snake_" title="_snake_" class="emoji">',
    "speak-no-evil": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/speak-no-evil.png" alt="_speak-no-evil_" title="_speak-no-evil_" class="emoji">',
-   "tiger": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/tiger.png" alt="_mtiger_" title="_tiger_" class="emoji">',
+   "tiger": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/tiger.png" alt="_tiger_" title="_tiger_" class="emoji">',
    "tropical-fish": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/tropical-fish.png" alt="_tropical-fish_" title="_tropical-fish_" class="emoji">',
    "turtle": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/turtle.png" alt="_turtle_" title="_turtle_" class="emoji">',
    "unicorn": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/unicorn.png" alt="_unicorn_" title="_unicorn_" class="emoji">',
