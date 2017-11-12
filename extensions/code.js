@@ -133,8 +133,20 @@ function handleEmojis() {
     console.log("worked");
     //Animals
     var animalemojisdash = {
-        "ant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ant.png" alt="_ant_" title="_ant_" class="emoji">',
-        "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">'
+      "ant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ant.png" alt="_ant_" title="_ant_" class="emoji">',
+      "baby-chick": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/baby-chick.png" alt="_baby-chick_" title="_baby-chick_" class="emoji">',
+      "baby-chick2": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/baby-chick2.png" alt="_baby-chick2_" title="_baby-chick2_" class="emoji">',
+      "bear": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/bear.png" alt="_bear_" title="_bear_" class="emoji">',
+      "bee": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/bee.png" alt="_bee_" title="_bee_" class="emoji">',
+      "boar": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/boar.png" alt="_boar_" title="_boar_" class="emoji">',
+      "camel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/camel.png" alt="_camel_" title="_camel_" class="emoji">',
+      "cat": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/cat.png" alt="_cat_" title="_cat_" class="emoji">',
+      "caterpillar": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/caterpillar.png" alt="_caterpillar_" title="_caterpillar_" class="emoji">',
+      "chestnut": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/chestnut.png" alt="_chestnut_" title="_chestnut_" class="emoji">',
+      "chicken": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/chicken.png" alt="_chicken_" title="_chicken_" class="emoji">',
+      "cow": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/cow.png" alt="_cow_" title="_cow_" class="emoji">',
+      "dog": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/dog.png" alt="_dog_" title="_dog_" class="emoji">',
+      "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">'
     };
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(animalemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${animalemojisdash[emoji]}`)));
     console.log("worked");
