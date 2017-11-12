@@ -97,4 +97,18 @@ var emojisdash = {
  for (var i = 0; i < listOfValues.length; i++) {
    document.getElementById("container").innerHTML += listOfValues[i] + " ";
  }
+
+ //Animals
+ var animalemojisdash = {
+     "ant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ant.png" alt="_ant_" title="_ant_" class="emoji">',
+     "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">'
+ };
+
+document.getElementById("container").innerHTML += "<br> <b>Animals:</b> <br>"
+
+ var animallistOfValues = Object.values(animalemojisdash);
+ console.log(animallistOfValues[1]);
+ for (var i = 0; i < animallistOfValues.length; i++) {
+   document.getElementById("container").innerHTML += animallistOfValues[i] + " ";
+ }
 };
