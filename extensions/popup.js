@@ -95,6 +95,6 @@ var emojisdash = {
  var listOfValues = Object.values(emojisdash);
  console.log(listOfValues[1]);
  for (var i = 0; i < listOfValues.length; i++) {
-   document.getElementById("container").innerHTML = listOfValues[i] + " ";
+   document.getElementById("container").innerHTML += listOfValues[i] + " ";
  }
 };
