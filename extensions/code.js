@@ -270,7 +270,6 @@ if(localuser.toUpperCase() !== user.toUpperCase()) {
             document.getElementsByClassName("header-text")[0].getElementsByTagName("h2")[0].innerHTML += ' <a href="https://scratch.mit.edu/users/scratchmoji" target="_blank" title="ScratchMoji User" style="text-decoration: none;"><img style="width:25px; height:25px;" src="http://cdn2.scratch.mit.edu/get_image/user/27260179_60x60.png"></img></a>';
           }
         }
-}
 
 
   var domChange = function(records){
