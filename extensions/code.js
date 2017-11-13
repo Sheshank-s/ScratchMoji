@@ -241,6 +241,16 @@ function handleEmojis() {
     };
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(peopleemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${peopleemojisdash[emoji]}`)));
     console.log("worked");
+
+
+    //Potato
+    var customemojisdash = {
+      "potato": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://images.emojiterra.com/emojione/v2/512px/1f954.png" alt="_potato_" title="_potato_" class="emoji">',
+      "josh": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://images-ext-1.discordapp.net/external/PX5rG6h3Splp8LNBw6LPyMXnTel3d-BRFvbdPA7Ee98/https/cdn2.scratch.mit.edu/get_image/user/16015216_350x350.png" alt="_josh_" title="_josh_" class="emoji">'
+    };
+    Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(customemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${customemojisdash[emoji]}`)));
+    console.log("worked");
+
     i++;
     if (i == 5) {
        clearInterval(x);
