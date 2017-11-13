@@ -257,9 +257,9 @@ function handleEmojis() {
        clearInterval(x);
     }
 
-      if (i == 1 && document.getElementById("bio").innerHTML.toLowerCase().includes("scratchmoji.tk") || document.getElementById("status").innerHTML.toLowerCase().includes("scratchmoji.tk")) {
-          document.getElementsByClassName("header-text")[0].getElementsByTagName("h2")[0].innerHTML += ' <a href="https://scratch.mit.edu/users/scratchmoji" target="_blank" title="ScratchMoji User" style="text-decoration: none;"><img style="width:25px; vertical-align: text-bottom; height:25px;" src="http://cdn2.scratch.mit.edu/get_image/user/27260179_60x60.png"></img></a>';
-        }
+    if (i == 1 && (document.getElementById("bio").innerHTML.toLowerCase().includes("scratchmoji.tk") || document.getElementById("status").innerHTML.toLowerCase().includes("scratchmoji.tk"))) {
+        document.getElementsByClassName("header-text")[0].getElementsByTagName("h2")[0].innerHTML += ' <a href="https://scratch.mit.edu/users/scratchmoji" target="_blank" title="ScratchMoji User" style="text-decoration: none;"><img style="width:25px; vertical-align: text-bottom; height:25px;" src="http://cdn2.scratch.mit.edu/get_image/user/27260179_60x60.png"></img></a>';
+    }
 }
 var x = setInterval(function(){
   handleEmojis();
