@@ -220,8 +220,9 @@ document.getElementById("container").innerHTML += "<br> <b>Animals:</b> <br>";
  }
  //Potato
  var customemojisdash = {
-   "potato": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://images.emojiterra.com/emojione/v2/512px/1f954.png" alt="_potato_" title="_potato_" class="emoji">',
+   "fajtv": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/4291425_60x60.png" alt="_fajtv_" title="_fajtv_" class="emoji">',
    "josh": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/16015216_350x350.png" alt="_josh_" title="_josh_" class="emoji">',
+   "potato": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://images.emojiterra.com/emojione/v2/512px/1f954.png" alt="_potato_" title="_potato_" class="emoji">',
    "quirt": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/14638446_60x60.png" alt="_quirt_" title="_quirt_" class="emoji">',
    "will": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/3051823_350x350.png" alt="_will_" title="_will_" class="emoji">'
  };
