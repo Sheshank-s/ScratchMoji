@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
-   "name":"ScratchEmoji",
-   "short_name":"SE",
+   "name":"ScratchMoji",
+   "short_name":"SM",
    "description":"Brings Emojis to Scratch!",
    "default_locale": "en",
    "content_scripts":[
