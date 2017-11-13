@@ -245,6 +245,7 @@ function handleEmojis() {
 
     //Potato
     var customemojisdash = {
+      "cb": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/2755634_60x60.png" alt="_cb_" title="_cb_" class="emoji">',
       "fajtv": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/4291425_60x60.png" alt="_fajtv_" title="_fajtv_" class="emoji">',
       "jim": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18324063_60x60.png" alt="_jim_" title="_jim_" class="emoji">',
       "josh": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/16015216_350x350.png" alt="_josh_" title="_josh_" class="emoji">',
