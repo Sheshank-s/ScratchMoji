@@ -130,7 +130,7 @@ function handleEmojis() {
         "confounded": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/confounded.png" alt="_confounded_" title="_confounded_" class="emoji">'
     };
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(emojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${emojisdash[emoji]}`)));
-    console.log("worked");
+
     //Animals
     var animalemojisdash = {
       "ant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ant.png" alt="_ant_" title="_ant_" class="emoji">',
@@ -181,7 +181,7 @@ function handleEmojis() {
       "wolf": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/wolf.png" alt="_wolf_" title="_wolf_" class="emoji">'
     };
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(animalemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${animalemojisdash[emoji]}`)));
-    console.log("worked");
+
 
     //People
     var peopleemojisdash = {
@@ -239,16 +239,17 @@ function handleEmojis() {
       "waving-hand": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/waving-hand.png" alt="_waving-hand_" title="_waving-hand_" class="emoji">'
     };
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(peopleemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${peopleemojisdash[emoji]}`)));
-    console.log("worked");
 
 
     //Potato
     var customemojisdash = {
       "cb": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/2755634_60x60.png" alt="_cb_" title="_cb_" class="emoji">',
+      "thechaotic": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/846741_60x60.png" alt="_thechaotic_" title="_thechaotic_" class="emoji">',
       "dhilly": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/2881193_60x60.png" alt="_dhilly_" title="_dhilly_" class="emoji">',
       "fajtv": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/4291425_60x60.png" alt="_fajtv_" title="_fajtv_" class="emoji">',
       "fancy": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/13191348_60x60.png" alt="_fancy_" title="_fancy_" class="emoji">',
       "gam": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/13807747_60x60.png" alt="_gam_" title="_gam_" class="emoji">',
+      "griffpatch": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/1882674_60x60.png" alt="_griffpatch_" title="_griffpatch_" class="emoji">',
       "jim": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18324063_60x60.png" alt="_jim_" title="_jim_" class="emoji">',
       "josh": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/16015216_350x350.png" alt="_josh_" title="_josh_" class="emoji">',
       "k11": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="http://i.cubeupload.com/AZi3IX.png" alt="_k11_" title="_k11_" class="emoji">',
@@ -262,8 +263,7 @@ function handleEmojis() {
     };
 
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(customemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${customemojisdash[emoji]}`)));
-    console.log("worked");
-//
+
     i++;
     if (i == 1) {
        clearInterval(x);
@@ -283,7 +283,6 @@ var x = setInterval(function(){
 var comments = document.getElementById("comments");
   if(comments) {
       var listenToComments = new MutationObserver(domChange);
-      console.log("Comment");
       listenToComments.observe(comments, {subtree: true, childList: true});
 
       handleEmojis();
