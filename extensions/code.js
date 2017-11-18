@@ -255,6 +255,7 @@ function handleEmojis() {
       "gam": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/13807747_60x60.png" alt="_gam_" title="_gam_" class="emoji">',
       "gleck": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/26897412_60x60.png" alt="_gleck_" title="_gleck_" class="emoji">',
       "griffpatch": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/1882674_60x60.png" alt="_griffpatch_" title="_griffpatch_" class="emoji">',
+      "jabox": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/13751705_60x60.png" alt="_jabox_" title="_jabox_" class="emoji">',
       "jim": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18324063_60x60.png" alt="_jim_" title="_jim_" class="emoji">',
       "josh": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/16015216_350x350.png" alt="_josh_" title="_josh_" class="emoji">',
       "k11": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="http://i.cubeupload.com/AZi3IX.png" alt="_k11_" title="_k11_" class="emoji">',
