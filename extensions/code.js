@@ -241,22 +241,29 @@ function handleEmojis() {
     Array.from(comments.querySelectorAll(".comment > .info > .content")).forEach(comment => Object.keys(peopleemojisdash).forEach(emoji => comment.innerHTML = comment.innerHTML.replace(new RegExp("(\\s|^)_" + emoji + "_", "g"), `$1${peopleemojisdash[emoji]}`)));
 
 
-    //Potato
+    //Potato https://cdn2.scratch.mit.edu/get_image/user/21816159_60x60.png
     var customemojisdash = {
+      "capkickrock": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/capkickrock.png" alt="_capkickrock_" title="_capkickrock_" class="emoji">',
       "cb": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/2755634_60x60.png" alt="_cb_" title="_cb_" class="emoji">',
+      "thecap": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/16643209_60x60.png" alt="_thecap_" title="_thecap_" class="emoji">',
       "thechaotic": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/846741_60x60.png" alt="_thechaotic_" title="_thechaotic_" class="emoji">',
       "dhilly": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/2881193_60x60.png" alt="_dhilly_" title="_dhilly_" class="emoji">',
+      "diavlo": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/12584572_60x60.png" alt="_diavlo_" title="_diavlo_" class="emoji">',
       "fajtv": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/4291425_60x60.png" alt="_fajtv_" title="_fajtv_" class="emoji">',
       "fancy": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/13191348_60x60.png" alt="_fancy_" title="_fancy_" class="emoji">',
+      "formulate": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/24960468_60x60.png" alt="_formulate_" title="_formulate_" class="emoji">',
       "gam": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/13807747_60x60.png" alt="_gam_" title="_gam_" class="emoji">',
+      "gleck": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/26897412_60x60.png" alt="_gleck_" title="_gleck_" class="emoji">',
       "griffpatch": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/1882674_60x60.png" alt="_griffpatch_" title="_griffpatch_" class="emoji">',
       "jim": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18324063_60x60.png" alt="_jim_" title="_jim_" class="emoji">',
       "josh": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/16015216_350x350.png" alt="_josh_" title="_josh_" class="emoji">',
       "k11": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="http://i.cubeupload.com/AZi3IX.png" alt="_k11_" title="_k11_" class="emoji">',
       "p2c": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/49156_350x350.png" alt="_p2c_" title="_p2c_" class="emoji">',
       "potato": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://images.emojiterra.com/emojione/v2/512px/1f954.png" alt="_potato_" title="_potato_" class="emoji">',
+      "pyroaura": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18100655_60x60.png" alt="_pyroaura_" title="_pyroaura_" class="emoji">',
       "quirt": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/14638446_60x60.png" alt="_quirt_" title="_quirt_" class="emoji">',
       "scratchmoji": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="http://cdn2.scratch.mit.edu/get_image/user/27260179_60x60.png" alt="_scratchmoji_" title="_scratchmoji_" class="emoji">',
+      "vectia": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/21816159_60x60.png" alt="_vectia_" title="_vectia_" class="emoji">',
       "wazzo": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/708436_60x60.png" alt="_wazzo_" title="_wazzo_" class="emoji">',
       "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">',
       "will": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/3051823_350x350.png" alt="_will_" title="_will_" class="emoji">'

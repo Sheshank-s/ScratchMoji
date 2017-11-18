@@ -1,9 +1,10 @@
+function copyT(e){console.log(e);var t=document.createElement("textarea");t.textContent=e;var n=document.body;n.appendChild(t),t.select(),document.execCommand("copy"),n.removeChild(t)};
 window.onload = function () {
 console.log("d");
 
 var emojisdash = {
-    '<img src="//cdn.scratch.mit.edu/scratchr2/static/__edeeb9742280669f2eae661e72ce5d5d__/images/easter_eggs/aww-cat.png" class="easter-egg">': '<img style="vertical-align: bottom; display: inline; height: 24px; width: 24px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/grinning.png" alt="_:D_" title="_:D_" class="emoji">',
-    '<img src="//cdn.scratch.mit.edu/scratchr2/static/__edeeb9742280669f2eae661e72ce5d5d__/images/easter_eggs/tongue-out-cat.png" class="easter-egg">': '<img style="vertical-align: bottom; display: inline; height: 24px; width: 24px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/stuck-out-toungue.png" alt="_:P_" title="_:P_" class="emoji">',
+    '<img src="//cdn.scratch.mit.edu/scratchr2/static/__edeeb9742280669f2eae661e72ce5d5d__/images/easter_eggs/aww-cat.png" class="easter-egg">': '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/grinning.png" alt="_:D_" title="_:D_" class="emoji">',
+    '<img src="//cdn.scratch.mit.edu/scratchr2/static/__edeeb9742280669f2eae661e72ce5d5d__/images/easter_eggs/tongue-out-cat.png" class="easter-egg">': '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/stuck-out-toungue.png" alt="_:P_" title="_:P_" class="emoji">',
     ":D": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/grinning.png" alt="_:D_" title="_:D_" class="emoji">',
     "-_-": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/expressionless.png" alt="_-_-_" title="_-_-_" class="emoji">',
     ":P": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/stuck-out-toungue.png" alt="_:P_" title="_:P_" class="emoji">',
@@ -93,9 +94,11 @@ var emojisdash = {
     "confounded": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/faceemoji/confounded.png" alt="_confounded_" title="_confounded_" class="emoji">'
 };
  var listOfValues = Object.values(emojisdash);
+ var listOfProperties = Object.getOwnPropertyNames(emojisdash);
  console.log(listOfValues[1]);
  for (var i = 0; i < listOfValues.length; i++) {
-   document.getElementById("container").innerHTML += listOfValues[i] + " ";
+   document.getElementById("container").innerHTML += "<button class='button' id = '"+listOfProperties[i]+"'>" + listOfValues[i] + "</button> ";
+   document.getElementById(listOfProperties[i]).addEventListener("click", copyT("_"+listOfProperties[i]+"_"));
  }
  //People
  var peopleemojisdash = {
@@ -155,9 +158,11 @@ var emojisdash = {
  document.getElementById("container").innerHTML += "<br> <b>People:</b> <br>";
 
   var peoplelistOfValues = Object.values(peopleemojisdash);
+  var peoplelistOfProperties = Object.getOwnPropertyNames(peopleemojisdash);
   console.log(peoplelistOfValues[1]);
   for (var i = 0; i < peoplelistOfValues.length; i++) {
-    document.getElementById("container").innerHTML += peoplelistOfValues[i] + " ";
+    document.getElementById("container").innerHTML += "<button class='button' id = '"+peoplelistOfProperties[i]+"'>" + peoplelistOfValues[i] + "</button> ";
+    document.getElementById(peoplelistOfProperties[i]).addEventListener("click", copyT("_"+peoplelistOfProperties[i]+"_"));
   }
  //Animals
  var animalemojisdash = {
@@ -212,9 +217,11 @@ var emojisdash = {
 document.getElementById("container").innerHTML += "<br> <b>Animals:</b> <br>";
 
  var animallistOfValues = Object.values(animalemojisdash);
+ var animallistOfProperties = Object.getOwnPropertyNames(animalemojisdash);
  console.log(animallistOfValues[1]);
  for (var i = 0; i < animallistOfValues.length; i++) {
-   document.getElementById("container").innerHTML += animallistOfValues[i] + " ";
+   document.getElementById("container").innerHTML += "<button class='button' id = '"+animallistOfProperties[i]+"'>" + animallistOfValues[i] + "</button> ";
+   document.getElementById(animallistOfProperties[i]).addEventListener("click", copyT("_"+animallistOfProperties[i]+"_"));
  }
  //Potato
  var customemojisdash = {
@@ -240,8 +247,10 @@ document.getElementById("container").innerHTML += "<br> <b>Animals:</b> <br>";
 document.getElementById("container").innerHTML += "<br> <b>Custom:</b> <br>";
 
 var customlistOfValues = Object.values(customemojisdash);
+var customlistOfProperties = Object.getOwnPropertyNames(customemojisdash);
 console.log(customlistOfValues[1]);
 for (var i = 0; i < customlistOfValues.length; i++) {
-  document.getElementById("container").innerHTML +=customlistOfValues[i] + " ";
+  document.getElementById("container").innerHTML += "<button class='button' id = '"+customlistOfProperties[i]+"'>" + customlistOfValues[i] + "</button> ";
+   document.getElementById(customlistOfProperties[i]).addEventListener("click", copyT("_"+customlistOfProperties[i]+"_"));
 }
 };
