@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:500,700,1000' rel='stylesheet'>
 <style>
 body {
   width:300px;
@@ -8,7 +9,6 @@ body {
   overflow-y: scroll;
 }
 html {
-  width:300px;
   height: 300px;
   overflow-y: scroll;
 }
@@ -31,18 +31,33 @@ html {
 .button:hover {
   background-color: #E5E5E5;
 }
+body {
+  font-family: "Montserrat";
+  font-weight: 1000;
+  font-size: 20px;
+  margin-right: 3px;
+}
+hr {
+  width: 275px;
+  border: none;
+  height: 2px;
+  background-color: gray;
+}
 </style>
 <script src="popup.js" type="text/javascript"></script>
 </head>
 <body>
-<p style="font-family: Arial"><h2>Current emojis:</h2>
-  <hr>
+<p style="margin-bottom: 0px; ">
+  <center>
+    <img src="logo.png" style="height:75px;" />
+  </center>
   <div id="container">
-    <b>You can copy paste emojis from here: </b><hr>
-    <b>Faces:</b><br>
+    <b style="font-size: 15px; font-weight: 500">Click on an emoji to copy it. </b>
+    <hr>
+    <b>FACES:</b><br>
 </div>
 <hr>
-<footer>
+<footer style="font-size:12px;font-weight:500;">
 ScratchMoji is made by <a href="https://scratch.mit.edu/users/PackersRuleGoPack">@PackersRuleGoPack</a>. Questions? Comments? Concerns? Comment on <a href="https://scratch.mit.edu/users/scratchmoji">@ScratchMoji</a>
 </footer>
  </p>

@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
      "walk": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/walk.png" alt="_walk_" title="_walk_" class="emoji">',
      "waving-hand": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/waving-hand.png" alt="_waving-hand_" title="_waving-hand_" class="emoji">'
    };
-   document.getElementById("container").innerHTML += "<br> <b>People:</b> <br>";
+   document.getElementById("container").innerHTML += "<br> <b>PEOPLE:</b> <br>";
 
     var peoplelistOfValues = Object.values(peopleemojisdash);
     var peoplelistOfProperties = Object.getOwnPropertyNames(peopleemojisdash);
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function() {
      "wolf": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/wolf.png" alt="_wolf_" title="_wolf_" class="emoji">'
    };
 
-  document.getElementById("container").innerHTML += "<br> <b>Animals:</b> <br>";
+  document.getElementById("container").innerHTML += "<br> <b>ANIMALS:</b> <br>";
 
   var animallistOfValues = Object.values(animalemojisdash);
 var animallistOfProperties = Object.getOwnPropertyNames(animalemojisdash);
@@ -250,7 +250,7 @@ for (var i = 0; i < animallistOfValues.length; i++) {
      "will": '<img onclick="copyT(\'_will_\')"style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/3051823_350x350.png" alt="_will_" title="_will_" class="emoji">'
    };
 
-  document.getElementById("container").innerHTML += "<br> <b>Custom:</b> <br>";
+  document.getElementById("container").innerHTML += "<br> <b>CUSTOM:</b> <br>";
 
   var customlistOfValues = Object.values(customemojisdash);
   var customlistOfProperties = Object.getOwnPropertyNames(customemojisdash);
