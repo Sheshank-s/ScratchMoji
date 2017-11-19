@@ -101,9 +101,6 @@ document.addEventListener('DOMContentLoaded', function() {
      document.getElementById("container").innerHTML += "<button class='button' id = '"+listOfProperties[i]+"'>" + listOfValues[i] + "</button> ";
      document.getElementById(listOfProperties[i]).addEventListener("click", function() { copyT("_"+listOfProperties[i]+"_")});
    }
-   for (var i = 0; i < listOfProperties.length; i++) {
-     document.getElementById(listOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_")});
-   }
    //People
    var peopleemojisdash = {
      "Massage": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/people/Massage.png" alt="_Massage_" title="_Massage_" class="emoji">',
@@ -167,10 +164,6 @@ document.addEventListener('DOMContentLoaded', function() {
     for (var i = 0; i < peoplelistOfValues.length; i++) {
       document.getElementById("container").innerHTML += "<button class='button' id = '"+peoplelistOfProperties[i]+"'>" + peoplelistOfValues[i] + "</button> ";
     }
-
-    for (var i = 0; i < peoplelistOfProperties.length; i++) {
-      document.getElementById(peoplelistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_")});
-    }
    //Animals
    var animalemojisdash = {
      "ant": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/ant.png" alt="_ant_" title="_ant_" class="emoji">',
@@ -224,19 +217,11 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("container").innerHTML += "<br> <b>Animals:</b> <br>";
 
   var animallistOfValues = Object.values(animalemojisdash);
-  var animallistOfProperties = Object.getOwnPropertyNames(animalemojisdash);
-  console.log(animallistOfProperties);
-  for (var i = 0; i < animallistOfValues.length; i++) {
-   document.getElementById("container").innerHTML += "<button class='button' id = '"+animallistOfProperties[i]+"'>" + animallistOfValues[i] + "</button> ";
-  }
-  for (var i = 0; i < animallistOfProperties.length; i++) {
-    console.log(document.getElementById(animallistOfProperties[i]));
-    console.log(animallistOfProperties[i]);
-   document.getElementById(animallistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_")});
-
-  }
-  for (var i = 0; i < animallistOfProperties.length; i++) {
-  }
+var animallistOfProperties = Object.getOwnPropertyNames(animalemojisdash);
+console.log(animallistOfProperties);
+for (var i = 0; i < animallistOfValues.length; i++) {
+  document.getElementById("container").innerHTML += "<button class='button' id = '"+animallistOfProperties[i]+"'>" + animallistOfValues[i] + "</button> ";
+}
    //Potato
    var customemojisdash = {
      "capkickrock": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/capkickrock.png" alt="_capkickrock_" title="_capkickrock_" class="emoji">',
@@ -274,6 +259,16 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("container").innerHTML += "<button class='button' id = '"+customlistOfProperties[i]+"'>" + customlistOfValues[i] + "</button> ";
   }
   for (var i = 0; i < customlistOfProperties.length; i++) {
-    document.getElementById(customlistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_")});
+    document.getElementById(customlistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"});
+  }
+  for (var i = 0; i < animallistOfProperties.length; i++) {
+    document.getElementById(animallistOfProperties[i]).addEventListener("click", function () {copyT("_"+document.getElementById(animallistOfProperties[i]).id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"}, true);
+  }
+
+  for (var i = 0; i < peoplelistOfProperties.length; i++) {
+    document.getElementById(peoplelistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"});
+  }
+  for (var i = 0; i < listOfProperties.length; i++) {
+    document.getElementById(listOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"});
   }
 });
