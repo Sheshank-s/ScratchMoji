@@ -244,6 +244,7 @@ for (var i = 0; i < animallistOfValues.length; i++) {
      "pyroaura": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18100655_60x60.png" alt="_pyroaura_" title="_pyroaura_" class="emoji">',
      "quirt": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/14638446_60x60.png" alt="_quirt_" title="_quirt_" class="emoji">',
      "scratchmoji": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="http://cdn2.scratch.mit.edu/get_image/user/27260179_60x60.png" alt="_scratchmoji_" title="_scratchmoji_" class="emoji">',
+     "spider": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/8453280_60x60.png" alt="_spider_" title="_spider_" class="emoji">',
      "vectia": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/21816159_60x60.png" alt="_vectia_" title="_vectia_" class="emoji">',
      "wazzo": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/708436_60x60.png" alt="_wazzo_" title="_wazzo_" class="emoji">',
      "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">',
@@ -260,15 +261,16 @@ for (var i = 0; i < animallistOfValues.length; i++) {
   }
   for (var i = 0; i < customlistOfProperties.length; i++) {
     document.getElementById(customlistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"});
-  }
-  for (var i = 0; i < animallistOfProperties.length; i++) {
-    document.getElementById(animallistOfProperties[i]).addEventListener("click", function () {copyT("_"+document.getElementById(animallistOfProperties[i]).id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"}, true);
-  }
 
+}
   for (var i = 0; i < peoplelistOfProperties.length; i++) {
     document.getElementById(peoplelistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"});
   }
   for (var i = 0; i < listOfProperties.length; i++) {
     document.getElementById(listOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"});
   }
+
+for (var i = 0; i < animallistOfProperties.length; i++) {
+  document.getElementById(animallistOfProperties[i]).addEventListener("click", function () {copyT("_"+this.id+"_");this.className += " Clicked";this.innerHTML = "<img style='height:23px;' src='https://png.icons8.com/checkmark/win10/28/ffffff'/>"}, true);
+}
 });

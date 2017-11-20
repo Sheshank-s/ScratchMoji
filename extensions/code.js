@@ -264,6 +264,7 @@ function handleEmojis() {
       "pyroaura": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/18100655_60x60.png" alt="_pyroaura_" title="_pyroaura_" class="emoji">',
       "quirt": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/14638446_60x60.png" alt="_quirt_" title="_quirt_" class="emoji">',
       "scratchmoji": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="http://cdn2.scratch.mit.edu/get_image/user/27260179_60x60.png" alt="_scratchmoji_" title="_scratchmoji_" class="emoji">',
+      "spider": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/8453280_60x60.png" alt="_spider_" title="_spider_" class="emoji">',
       "vectia": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/21816159_60x60.png" alt="_vectia_" title="_vectia_" class="emoji">',
       "wazzo": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://cdn2.scratch.mit.edu/get_image/user/708436_60x60.png" alt="_wazzo_" title="_wazzo_" class="emoji">',
       "weasel": '<img style="vertical-align: bottom; display: inline; height: 21px; width: 21px;" src="https://greenbayrules.github.io/host/emojis/animals/weasel.png" alt="_weasel_" title="_weasel_" class="emoji">',
